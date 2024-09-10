@@ -8,7 +8,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from crud_functions import *
 from databases import Database
 
-api = '7406943885:AAHzwqZBJFIwSqEi6cPnD_MHuGABZkdii3Q'
+api = ''
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
